@@ -1,8 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Midterm — Environment 2
 
-## Getting Started
+**MGN Personal Website** · _by Mary Grace Nazareno_
+Vanier College — Block 2, Environment 2
 
-First, run the development server:
+A simple personal website built with **Next.js 14** and **React**, featuring a clean gold-accented design with reusable components.
+
+---
+
+## 🗂 Project Structure
+
+```
+midterm-marynazareno/
+├── app/
+│   ├── globals.css          # Global styles and CSS custom properties
+│   ├── layout.tsx           # Root layout
+│   └── page.tsx             # Home page
+├── components/
+│   ├── Header/
+│   │   ├── header.tsx       # Top navigation bar
+│   │   └── header.css       # Header-specific styles
+│   └── Footer/
+│       └── footer.css       # Footer-specific styles
+├── public/                  # Static assets
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧩 Components
+
+### Header (`components/Header/header.tsx`)
+
+The site-wide top navigation bar. Includes:
+
+- **MGN** logo/brand mark aligned to the left
+- Navigation links: **Home**, **About**, **Services**
+- A hamburger menu element (hidden on desktop, prepared for mobile breakpoints)
+- 80px height with flexbox space-between layout
+
+### Footer
+
+Centered footer section with:
+
+- Brand name in **Playfair Display** serif font
+- A short tagline in muted styling
+- Copyright notice at the bottom
+
+---
+
+## 🎨 Styles & Design
+
+| Detail               | Value                       |
+| -------------------- | --------------------------- |
+| Accent / hover color | `#c9a84c` (gold)            |
+| Brand font           | Playfair Display (serif)    |
+| Muted text color     | `#7a7065`                   |
+| Nav link color       | `var(--muted)` CSS variable |
+| Nav transition       | `color 0.2s ease`           |
+| Header height        | `80px`                      |
+
+- CSS custom properties (`--muted`) are used for consistent theming across components
+- No external CSS framework — all styles are written in plain CSS
+- Flexbox is used throughout for layout
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology                       | Purpose                       |
+| -------------------------------- | ----------------------------- |
+| [Next.js 14](https://nextjs.org) | React framework, routing, SSR |
+| [React](https://react.dev)       | Component-based UI            |
+| CSS (plain)                      | Component and global styling  |
+| Playfair Display                 | Serif font for branding       |
+| Git + GitHub                     | Version control               |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+```bash
+git clone https://github.com/mgracnazareno/midterm-environment2.git
+cd midterm-environment2
+npm install
+```
+
+### Running the Dev Server
 
 ```bash
 npm run dev
@@ -10,27 +101,25 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is deployed via [Vercel](https://vercel.com) — the easiest way to deploy a Next.js app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**GitHub Repository:**
+[github.com/mgracnazareno/midterm-environment2](https://github.com/mgracnazareno/midterm-environment2)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📚 Learn More
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
