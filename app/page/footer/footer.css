@@ -1,0 +1,38 @@
+.footer {
+  padding: 40px 0 24px;
+  margin-top: 0px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.footer-brand {
+  text-align: center;
+}
+.footer-name {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.footer-tagline {
+  font-size: 0.78rem;
+  color: #7a7065;
+  font-weight: 300;
+}
+
+.footer-copy {
+  font-size: 0.72rem;
+  color: #7a7d65;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  padding-top: 20px;
+}
