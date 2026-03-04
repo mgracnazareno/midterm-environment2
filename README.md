@@ -7,7 +7,7 @@ A simple personal website built with **Next.js 14** and **React**, featuring a c
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 midterm-marynazareno/
@@ -28,7 +28,7 @@ midterm-marynazareno/
 
 ---
 
-## 🧩 Components
+##  Components
 
 ### Header (`components/Header/header.tsx`)
 
@@ -49,7 +49,7 @@ Centered footer section with:
 
 ---
 
-## 🎨 Styles & Design
+##  Styles & Design
 
 | Detail               | Value                       |
 | -------------------- | --------------------------- |
@@ -78,7 +78,7 @@ Centered footer section with:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ---
 
-## 📦 Deployment
+## Deployment
 
 This project is deployed via [Vercel](https://vercel.com) — the easiest way to deploy a Next.js app.
 
@@ -118,7 +118,7 @@ This project is deployed via [Vercel](https://vercel.com) — the easiest way to
 
 ---
 
-## 📚 Learn More
+##  Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
